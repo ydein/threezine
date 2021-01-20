@@ -1,0 +1,347 @@
+@import "reset.css";
+body {
+	background-color: #e9e9e9;
+	font: 12px Verdana, sans-serif;
+	color: #717171;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+/*TOP NAVIGATION*/
+.top-navigation {
+	height: 29px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d9d9d9;
+}
+.top-navigation-content, .wraper {
+	width: 960px;
+	margin: auto;
+	overflow: hidden;
+}
+.top-navigation-content {
+	overflow: hidden;
+}
+	.icons-menu {
+		margin-left: 660px;
+	}
+	.top-menu li, .icons-menu li {
+		display: inline-block;
+		
+	}
+	.top-menu li {		
+		padding: 4px 10px 0 0;
+		float: left;
+	}
+	.icons-menu li {
+		padding: 5px 5px 0 0;
+		float: right;
+	}
+	.top-menu a, .icons-menu a {
+		font-size: 9px;
+		color: #535353;
+		text-decoration: none;
+	}
+	.top-menu a:hover {
+		text-decoration: underline;
+	}
+
+/*HEADER*/
+.slogan {
+	height: 110px;
+}
+	.slogan img {
+		position: relative;
+		width: 181px;
+		height: 30px;
+		top: 40px;
+	}
+.main-menu {
+	height: 35px;
+	background-color: #ffffff;
+	overflow: hidden;
+	border-top: 1px solid #f9f9f9;
+	border-bottom: 1px solid #d9d9d9;	
+	border-right: 1px solid #d9d9d9;
+	margin-bottom: 14px;
+}
+	.main-menu li {
+		float: left;
+		padding: 10px 45px 0 0;
+	}
+		.main-menu li:first-child {
+			padding-left: 20px;
+		}
+	.main-menu a {
+		font: 19px 'Yanone Kaffeesatz', sans-serif;
+		color: #5c5c5c;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	.main-menu a:hover {
+		text-decoration: underline;
+	}
+
+/*SLIDER*/
+.slider {
+	padding: 10px;
+	background-color: #ffffff;
+	overflow: hidden;
+	height: 263px;
+	border-bottom: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	margin-bottom: 15px;
+}
+	.main-slide {
+		float: left;
+		width: 660px;
+		padding-right: 10px;
+	}
+		.main-slide img {
+			width: 650px;
+			height: 263px;
+			position: absolute;
+		}
+		.slider_legend {
+			background-color: rgba(255, 255, 255, 0.6);
+			height: 50px;
+			position: relative;
+			top: 213px;
+			padding: 10px 5px;
+		}
+			.slider_legend h2 {
+				font: 19px 'Yanone Kaffeesatz', sans-serif;
+				color: #2c2b2b;
+				text-transform: uppercase;
+			}
+			.slider_legend p, .slider_legend a {
+				font: 10px Verdana, sans-serif;
+				color: #191919;
+			}
+			.slider_legend a {
+				text-decoration: none;
+			}
+				.slider_legend a:hover {
+					text-decoration: underline;
+				}
+	.slide-list {
+		float: right;
+		width: 269px;
+	}
+		.slide-list li {
+			border-bottom: 1px dashed #c2c2c2;
+			padding: 5px;
+			margin-top: 5px;
+			overflow: hidden;
+			max-height: 60px;
+		}
+			.slide-list li:last-child {
+				border-bottom: none;
+				padding-bottom: 0;
+			}
+			.slide-list li:first-child {
+				padding-top: 0;
+				margin-top: 0;
+			}
+		.slide-list li img {
+			width: 60px;
+			height: 50px;
+		}
+		.slide-list a {
+			text-decoration: none;
+			color: #717171;
+			font: 15px 'Yanone Kaffeesatz', sans-serif;
+			width: 190px;
+			float: right;
+			margin: 5px 0 0 5px;
+		}
+			.slide-list a:hover {
+				text-decoration: underline;
+			}
+			.slide-list a:active {
+				color: #7da1bc;
+			}
+
+/*CONTENT*/
+main {
+	overflow: hidden;
+}
+.posts {
+	float: left;
+	width: 490px;
+	margin-left: 235px;
+}
+.left-sidebar {
+	float: left;
+	width: 225px;
+	margin-left: -725px;
+}
+.right-sidebar {
+	float: left;
+	width: 225px;
+	margin-left: 10px;
+}
+.left-sidebar nav, .right-sidebar nav, .search, .post {
+	box-sizing: border-box;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d9d9d9;	
+	border-right: 1px solid #d9d9d9;
+	padding: 10px;
+	margin-bottom: 14px;
+}
+/*SIDEBARS*/
+		.left-sidebar h1, .right-sidebar h1, .search legend {			
+			font: 19px 'Yanone Kaffeesatz', sans-serif;
+			color: #535353;
+			text-transform: uppercase;
+			border-bottom: 1px dashed #c2c2c2;
+			padding-bottom: 5px;
+			margin-bottom: 15px;
+		}
+		.recent_posts li, .popular_posts li, .featured_posts li {
+			overflow: hidden;
+			margin-top: 15px;			
+		}
+		.recent_posts li img, .popular_posts li img, .featured_posts li img {
+			width: 60px;
+			height: 50px;
+			float: left;
+			margin-right: 10px;
+		}
+		.recent_posts a, .popular_posts a, .featured_posts a {
+			text-decoration: none;
+			color: #717171;
+			font: 14px 'Yanone Kaffeesatz', sans-serif;
+		}
+			.recent_posts a:hover, .popular_posts a:hover, .featured_posts a:hover {
+				text-decoration: underline;
+			}
+			.recent_posts a:active, .popular_posts a:active, .featured_posts a:active {
+				color: #7da1bc;
+			}
+			.recent_posts .comments-number-sidebar, .popular_posts .comments-number-sidebar, .featured_posts .comments-number-sidebar {
+				color: #717171;
+				font: italic 12px 'Yanone Kaffeesatz', sans-serif;
+				margin-top: 3px;
+			}
+			.recent_comments p {
+				margin-top: 10px;
+				color: #717171;
+				font: 11px Verdana, sans-serif;
+			}
+					.recent_comments p span {
+						color: #2e2e2e;
+					}
+					.recent_comments p a {
+						color: #717171;
+						text-decoration: none;
+					}
+					.recent_comments p a:hover {
+						text-decoration: underline;
+					}
+			.flickr img {
+				padding: 0 2px 4px 2px;
+			}
+			.hashtags {
+				color: #2e2e2e;
+				font: italic 11px Georgia, serif;
+			}
+			.twitter-item, .name {
+				color: #717171;
+				font: italic 11px Georgia, serif;
+				margin-top: 10px;
+			}
+			.twitter-item a {
+				color: #2e2e2e;
+				font: italic 11px Georgia, serif;
+				text-decoration: none;
+			}
+				.twitter-item a:hover {
+					text-decoration: underline;
+				}
+			.twitter-author {
+				color: #2e2e2e;
+				margin-top: 10px;
+			}
+		.search input, .search button {
+			background-color: #e8e8e8;
+			height: 30px;
+			border: none;
+			color: #717171;
+		}
+		.search input {
+			width: 162px;
+			padding-left: 5px;
+		}
+		.tags a {
+			background-color: #e8e8e8;
+			padding: 7px;
+			margin-bottom: 5px;
+			padding: 5px 7px;
+			display: inline-block;
+			color: #717171;
+			text-decoration: none;
+			font: 11px Verdana, sans-serif;
+		}	
+			.tags a:hover {
+				text-decoration: underline;
+			}
+		.archives a {
+			color: #717171;
+			text-decoration: none;
+			font: 11px Verdana, sans-serif;
+			display: block;
+			margin-top: 10px;
+		}
+		.advertisement img {
+			margin-bottom: 7px;
+		}
+/*POSTS*/
+.post h1 {
+	color: #535353;
+	font:  25px 'Yanone Kaffeesatz', sans-serif;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #c2c2c2;
+	text-transform: uppercase;
+}
+.post-navigation {
+	padding: 7px 0 5px 0;
+	border-bottom: 1px dashed #c2c2c2;
+	margin-bottom: 10px;
+	color: #717171;
+	font: 9px Verdana, sans-serif;
+	overflow: hidden;
+}
+	.post-navigation div {
+		float: left;
+		padding-right: 18px;
+		min-height: 15px;
+	}
+	.date {
+		background: url(img/date_icon.png) left top no-repeat;
+		padding-left: 18px;
+	}
+	.author {
+		background: url(img/author_icon.png) left top no-repeat;
+		padding-left: 18px;
+	}
+	.comments-number {
+		background: url(img/comments_icon.png) left top no-repeat;
+		padding-left: 18px;
+	}
+	.permalink {
+		background: url(img/link_icon.png) left top no-repeat;
+		padding-left: 18px;
+	}
+/*FOOTER*/
+footer {
+	height: 29px;
+	background-color: #ffffff;
+	border-top: 1px solid #d9d9d9;
+	margin-top: 135px;
+}
+ footer p {
+ 	width: 960px;
+ 	margin: auto;
+ 	color: #535353;
+ 	font: 9px Verdana, sans-serif;
+ 	margin-top: 8px;
+ }
